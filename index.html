@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Irum • One‑Page Portfolio</title>
+  <title>Irum Shehryar • Python & AI/ML Engineer</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <nav>
   <div class="container">
-    <div class="logo">Irum • Portfolio</div>
+    <div class="logo">Irum Shehryar</div>
     <div class="navlinks">
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
-      <a href="#interests">Other Interests</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </div>
@@ -21,209 +21,235 @@
 </nav>
 
 <main>
+
+  <!-- HERO -->
   <section class="container hero">
     <div>
-      <div class="tagline">AI • Data • Web • Networks</div>
-      <h1>Human intelligence training the machine.</h1>
-      <p>I build practical demos in Python (regression, classification), clean HTML/CSS websites, and reliable backends. Learning Linux & MLOps for reproducible experiments.</p>
+      <div class="tagline">Python • AI/ML • Backend Systems</div>
+      <h1>Applied machine learning in real systems.</h1>
+      <p>
+        Master’s student in Information Technology focused on Python-based
+        machine learning and modular backend systems. Currently building a
+        topic classification and location-ranking pipeline for Finnish news
+        articles and extending it through Model Context Protocol (MCP)
+        integration as part of my thesis.
+      </p>
+
       <div class="cta">
         <a class="btn" href="#projects">View Projects</a>
         <a class="btn secondary" href="#contact">Contact</a>
       </div>
-      <p class="small">Open to internships — applied ML, data, or MLOps.</p>
+
+      <p class="small">Open to AI / ML internships and Python backend roles.</p>
     </div>
+
     <div class="card">
-      <img src="assets/screenshots/hero.png" alt="Portfolio hero image">
-      <h3>Highlights</h3>
+      <img src="assets/screenshots/hero.png" alt="AI and backend systems">
+      <h3>Core Focus</h3>
       <div class="badges">
-        <span class="badge ai">AI/ML</span><span class="badge python">Python</span><span class="badge web">Web</span>
-        <span class="badge html">HTML</span><span class="badge css">CSS</span><span class="badge js">JavaScript</span>
-        <span class="badge netsec">Net/Sec</span>
+        <span class="badge python">Python</span>
+        <span class="badge ai">AI/ML</span>
+        <span class="badge web">Backend</span>
+        <span class="badge netsec">REST APIs</span>
       </div>
-      <p class="small">Goal: hands-on, reproducible work that delivers value.</p>
+      <p class="small">Classification • NLP • Context-aware systems • Microservices</p>
     </div>
   </section>
 
+  <!-- CURRENT WORK -->
+  <section class="container section">
+    <h2>Currently</h2>
+    <ul>
+      <li>Training a supervised topic classification model for Finnish news articles.</li>
+      <li>Designing location extraction and ranking logic in a Python microservice architecture.</li>
+      <li>Integrating MCP-based context sharing to improve model accuracy and system reliability (Master’s thesis).</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
   <section id="projects" class="container section">
-    <h2>Projects</h2>
+    <h2>Selected Projects</h2>
     <div class="grid cards">
 
+      <!-- AI INTERNSHIP -->
       <div class="card">
-        <img src="assets/screenshots/website.png" alt="Website template">
-        <h3>Website Template (HTML/CSS)</h3>
-        <p>Responsive portfolio template — Grid + Flexbox, accessible nav.</p>
-        <div class="badges"><span class="badge web">Web</span><span class="badge html">HTML</span><span class="badge css">CSS</span></div>
+        <img src="assets/screenshots/iris.png" alt="AI internship project">
+        <h3>AI / ML Internship – News Classification System</h3>
+        <p>
+          Designing and training a topic categorization model and extracting
+          structured location data within a modular microservice architecture.
+        </p>
+        <div class="badges">
+          <span class="badge ai">AI/ML</span>
+          <span class="badge python">Python</span>
+          <span class="badge web">Microservices</span>
+        </div>
         <p class="small">
-          Live: <a href="https://users.metropolia.fi/~irums/FullStack/HTML-assignment/" target="_blank">University server</a> •
-          Code: <a href="https://github.com/IrumShehryar?tab=repositories" target="_blank">GitHub </a>
+          Tech: Python · NLP · Supervised Learning · REST APIs · Model Evaluation
         </p>
       </div>
 
+      <!-- THESIS -->
       <div class="card">
-        <img src="assets/screenshots/diabetes.png" alt="Diabetes regression">
-        <h3>Diabetes Regression</h3>
-        <p>Ridge/Lasso, feature selection; RMSE ~44. Reproducible notebook.</p>
-        <div class="badges"><span class="badge ai">AI/ML</span><span class="badge python">Python</span></div>
+        <img src="assets/screenshots/diabetes.png" alt="MCP thesis project">
+        <h3>Master’s Thesis – Context-Aware AI (MCP)</h3>
+        <p>
+          Extending the internship system by integrating structured context
+          sharing across components using Model Context Protocol (MCP).
+        </p>
+        <div class="badges">
+          <span class="badge ai">AI/ML</span>
+          <span class="badge python">Architecture</span>
+        </div>
         <p class="small">
-          Code: <a href="https://github.com/IrumShehryar/AI-with-Python/blob/master/Assignment%205/dibetes-variable-selection.py" target="_blank">GitHub</a> 
-          <!--Demo: <a href="#" target="_blank">Streamlit (add URL)</a> -->
+          Tech: Python · API Design · Context Modeling · Modular Systems
         </p>
       </div>
 
+      <!-- RESTAURANT WEBSITE -->
       <div class="card">
-        <img src="assets/screenshots/iris.png" alt="Iris classifier">
-        <h3>Classification</h3>
-        <p>SVM;K-Neighbours;RBF.</p>
-        <div class="badges"><span class="badge ai">AI/ML</span><span class="badge python">Python</span><span class="badge js">JS (demo)</span></div>
+        <img src="assets/screenshots/website.png" alt="Flask backend project">
+        <h3>Full-Stack Restaurant Website</h3>
+        <p>
+          Built and deployed a complete Flask backend with database integration and REST endpoints.
+        </p>
+        <div class="badges">
+          <span class="badge python">Flask</span>
+          <span class="badge web">Backend</span>
+        </div>
         <p class="small">
-          Code: <a href="https://github.com/IrumShehryar/AI-with-Python/tree/master/Classification" target="_blank">GitHub</a> 
-          <!--Demo: <a href="#" target="_blank">Live (add URL)</a> -->
+          Live: <a href="https://restaurant-website-7ss5.onrender.com/" target="_blank">Render</a> •
+          Code: <a href="https://github.com/IrumShehryar" target="_blank">GitHub</a><br>
+          Tech: Flask · MongoDB · REST APIs · Deployment
         </p>
       </div>
 
+      <!-- FINNISH TUTOR -->
       <div class="card">
-        <img src="assets/screenshots/voip.PNG" alt="VoIP backend">
-        <h3>VoIP Backend</h3>
-        <p>Flask + MySQL API; Dockerized; Twilio-ready.</p>
-        <div class="badges"><span class="badge web">Backend</span><span class="badge netsec">Security</span></div>
+        <img src="assets/screenshots/javascript.PNG" alt="Backend assignment">
+        <h3>Finnish Tutor Assignment App</h3>
+        <p>
+          Backend-focused assignment demonstrating routing, form handling,
+          and server-side logic in Python.
+        </p>
+        <div class="badges">
+          <span class="badge python">Python</span>
+          <span class="badge web">Backend</span>
+        </div>
         <p class="small">
-          Repo: <a href="https://github.com/IrumShehryar/VOIP-backend---Asiakas-Group-oy" target="_blank">GitHub</a> 
-         <!-- Docs: <a href="#" target="_blank">README (add URL)</a> -->
+          Live: <a href="https://finnish-mentor.onrender.com" target="_blank">Render</a> •
+          Demo available on request
         </p>
       </div>
 
+      <!-- VOIP -->
       <div class="card">
-        <img src="assets/screenshots/packettracer.png" alt="Packet Tracer">
-        <h3>Cisco Packet Tracer Labs</h3>
-        <p>Static/dynamic NAT, OSPF, ACLs, VPN — multi-branch topology.</p>
-        <div class="badges"><span class="badge netsec">Networking</span></div>
+        <img src="assets/screenshots/voip.PNG" alt="Backend API project">
+        <h3>VoIP Backend API</h3>
+        <p>
+          Designed REST APIs and database models for a Flask + MySQL system
+          in a collaborative environment.
+        </p>
+        <div class="badges">
+          <span class="badge python">Flask</span>
+          <span class="badge netsec">APIs</span>
+        </div>
         <p class="small">
-          Files: <a href="https://github.com/IrumShehryar/Cisco-packet-tracer" target="_blank">.pkt </a> 
-         <!-- Report: <a href="#" target="_blank">PDF (add URL)</a> -->
+          Repo: <a href="https://github.com/IrumShehryar/VOIP-backend---Asiakas-Group-oy" target="_blank">GitHub</a><br>
+          Tech: Flask · MySQL · REST Architecture
         </p>
       </div>
 
+      <!-- OWASP -->
       <div class="card">
-        <img src="assets/screenshots/owasp.png" alt="OWASP write-ups">
-        <h3>OWASP (Learning Notes)</h3>
-        <p>Educational lab notes with mitigations. No exploit code published.</p>
-        <div class="badges"><span class="badge netsec">Security</span></div>
-        <p class="small">
-          Read: <a href="https://github.com/IrumShehryar/owasp-writeups" target="_blank">GitHub </a>
+        <img src="assets/screenshots/owasp.png" alt="Security notes">
+        <h3>OWASP Security Notes</h3>
+        <p>
+          Security study notes focused on vulnerability understanding and mitigation. No exploit code published.
         </p>
-      </div>
-       <div class="card">
-        <img src="assets/screenshots/lost.PNG" alt="Python">
-        <h3>Lost & Found System</h3>
-        <p>University Project.</p>
-        <div class="badges"><span class="badge netsec">Python</span></div>
+        <div class="badges">
+          <span class="badge netsec">Security</span>
+        </div>
         <p class="small">
-          Read: <a href="https://github.com/IrumShehryar/Lost-and-Found-System" target="_blank">GitHub </a>
-        </p>
-      </div>
-      <div class="card">
-        <img src="assets/screenshots/javascript.PNG" alt="Javascript">
-        <h3>Javascript Assignments</h3>
-        <p>University Project.</p>
-        <div class="badges"><span class="badge netsec">Javascript</span></div>
-        <p class="small">
-          Read: <a href="https://github.com/IrumShehryar/Javascript-Assignments" target="_blank">GitHub </a>
+          Read: <a href="https://github.com/IrumShehryar/owasp-writeups" target="_blank">GitHub</a>
         </p>
       </div>
 
     </div>
   </section>
 
+  <!-- SKILLS -->
   <section id="skills" class="container section">
     <h2>Skills</h2>
-    <h3>Core (Tech)</h3>
+
+    <h3>Technical</h3>
     <div class="badges">
-      <span class="badge c">C/C++</span>  
       <span class="badge python">Python</span>
       <span class="badge ai">AI/ML</span>
-      <span class="badge web">Full‑stack/Web</span>
-      <span class="badge html">HTML</span>
-      <span class="badge css">CSS</span>
-      <span class="badge js">JavaScript</span>
-      <span class="badge netsec">Networking/Security</span>
-       
+      <span class="badge web">Flask</span>
+      <span class="badge netsec">FastAPI</span>
+      <span class="badge netsec">REST APIs</span>
+      <span class="badge netsec">MongoDB</span>
+      <span class="badge netsec">PostgreSQL</span>
+      <span class="badge netsec">Linux</span>
     </div>
-    <h3 style="margin-top:14px">Soft Skills</h3>
+
+    <h3 style="margin-top:14px">Professional</h3>
     <div class="subgrid">
-      <div class="soft"><b>Clear communication</b> <br>(written prose & poetry)</div>
-      <div class="soft"><b>Teamwork & collaboration</b> <br>(through university projects)</div>
-      <div class="soft"><b>Problem solving & analytical thinking</b><br> (Completed Interior design project)</div>
-      <div class="soft"><b>Time management under deadlines </b><br>(Juggled multiple tasks with Family life)</div>
-      <div class="soft"><b>Adaptability & fast learning </b><br>(Continuing studying after 20 Year gap)</div>
-      <div class="soft"><b>Ownership & follow‑through</b><br> (Managed to write backend code with AI assistance(no prior knowledge))</div>
-      <div class="soft"><b>Customer / stakeholder focus</b><br> (Attended weekly perfomance sessions with Asiakas Group)</div>
-      <div class="soft"><b>Creativity / Detail Oriented </b><br>(demonstrated in interior,web and logo design)</div>
+      <div class="soft"><b>Clear technical communication</b><br>Structured documentation and reporting.</div>
+      <div class="soft"><b>Analytical thinking</b><br>Model evaluation and error analysis.</div>
+      <div class="soft"><b>Collaborative development</b><br>Backend/frontend coordination and shared repositories.</div>
+      <div class="soft"><b>Continuous improvement</b><br>Iterative experimentation and refinement.</div>
     </div>
+
+    <p class="small" style="margin-top:12px">
+      Languages: English (Fluent) · Finnish (Basic – A1/A2)
+    </p>
   </section>
 
-  <section id="interests" class="container section">
-    <h2>Other Interests</h2>
-    <div class="grid cards">
-      <div class="card">
-        <img src="assets/screenshots/cooking.png" alt="Culinary Instagram">
-        <h3>Culinary Projects</h3>
-        <p>Cooking experiments & food styling. <a href="https://drive.google.com/file/d/1OKfKgpcJIQlaGX713geVDURiXrxF78_w/view?usp=drive_link" target="_blank">Culinary book (Drive)</a></p>
-        <div class="badges"><span class="badge culinary">Culinary</span></div>
-        <p class="small">
-          Instagram: <a href="https://www.instagram.com/restaure.ena?igsh=MTkyZzNqc3R0NTJjaw==" target="_blank">@restaure.ena</a>
-        </p>
-      </div>
-      <div class="card">
-        <img src="assets/screenshots/design.PNG" alt="Interior design & moodboards">
-        <h3>Interior Design</h3>
-        <p>Hand drawings & moodboards. Hosted on Google Drive.</p>
-        <div class="badges"><span class="badge creative">Interior</span></div>
-        <p class="small">
-          Gallery: <a href="https://drive.google.com/drive/folders/1fhsdvESZtxFvjPi8lwbXkx1_LTae2tK0?usp=drive_link" target="_blank">Drive folder</a>
-        </p>
-      </div>
-    </div>
-    <p class="small">Drive links are fine for now. Later, move highlights to a GitHub repo for preview thumbnails.</p>
-  </section>
-
+  <!-- ABOUT -->
   <section id="about" class="container section">
-    <h2>About Me</h2>
+    <h2>About</h2>
     <div class="two-col">
       <p class="justify">
-        I’m Irum — student of software engineering ;a hands‑on learner building toward a career in applied AI and data. Years ago I wrote a simple text autocomplete and it felt like magic.
-        Now I’m learning the tools behind that magic: Python, scikit‑learn, and reproducible workflows. Along with that I enjoy learning web-development, networking and cyber security. Learning Linux & MLOps skills to deep dive further into Machine learning.
+        I focus on building applied machine learning systems in Python.
+        My current work combines supervised topic classification,
+        location extraction, and modular backend design.
+        My Master’s thesis builds on this work by integrating
+        Model Context Protocol (MCP) to enable structured context
+        sharing across AI components.
       </p>
       <p class="justify">
-        I’m looking for an <strong>internship</strong> or a <strong>master’s thesis</strong> topic where I can contribute and learn quickly:
-        tidy data, baseline models, practical visualizations, and clear write‑ups. Open to explore  data sciences and cyber security as well. If that’s your team, I’d love to help ship something real.
+        I am interested in practical ML engineering, backend system design,
+        and taking models from experimentation to reliable deployment.
         <br><br>
-        <a href="https://github.com/IrumShehryar/docs/blob/main/IT%20CV%20v2.pdf" target="_blank">Resume (View)</a> · <a href="https://raw.githubusercontent.com/IrumShehryar/docs/main/IT%20CV%20v2.pdf" target="_blank">Download</a>
+        <a href="https://github.com/IrumShehryar/docs/blob/main/IT%20CV%20v2.pdf" target="_blank">Resume</a>
       </p>
     </div>
   </section>
 
+  <!-- CONTACT -->
   <section id="contact" class="container section">
     <h2>Contact</h2>
     <div class="two-col">
-      <p>Open to internships and master’s thesis supervision. For a quick demo or a 10‑minute chat, get in touch.</p>
-      <form class="form" action="https://formspree.io/f/yourformid" method="POST">
-        <fieldset>
-          <label>Your name<input type="text" name="name" required></label>
-          <label>Your email<input type="email" name="email" required></label>
-          <label>Message<textarea name="message" rows="4" required></textarea></label>
-          <button class="btn" type="submit">Send</button>
-          <div class="small">or email: <a href="mailto:irum.shehryar@gmail.com">irum.shehryar@gmail.com</a></div>
-        </fieldset>
-      </form>
+      <p>For AI/ML internships, Python backend roles, or thesis collaboration, feel free to reach out.</p>
+      <div>
+        <p>Email: <a href="mailto:irum.shehryar@gmail.com">irum.shehryar@gmail.com</a></p>
+        <p>
+          <a href="https://www.linkedin.com/in/irum-shehryar-5334091a3/" target="_blank">LinkedIn</a> ·
+          <a href="https://github.com/IrumShehryar" target="_blank">GitHub</a>
+        </p>
+      </div>
     </div>
   </section>
+
 </main>
 
 <footer>
   <div class="container footer-inner">
     <div>© 2025 Irum Shehryar</div>
-    <div><a href="https://www.linkedin.com/in/irum-shehryar-5334091a3/" target="_blank">LinkedIn</a> · <a href="https://github.com/IrumShehryar" target="_blank">GitHub</a></div>
   </div>
 </footer>
+
 </body>
 </html>
