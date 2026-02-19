@@ -90,6 +90,8 @@ nav .container{display:flex;justify-content:space-between;align-items:center}
 .badge.web{color:var(--web)}
 .badge.python{color:var(--python)}
 .badge.netsec{color:var(--netsec)}
+.badge.mcp {color: #22d3ee; border-color: rgba(34,211,238,.5);}
+
 
 .status{
   font-size:12px;
