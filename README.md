@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# Personal Portfolio Webpage
 
 Welcome to my personal portfolio! This website showcases my projects, skills, and interests as a developer and designer. Explore the site to see screenshots and details of various works, from web development to data science and more.
 
