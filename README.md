@@ -18,10 +18,7 @@ https://irumshehryar.github.io/portfolio/
 A sample of projects represented in this portfolio:
 
 | Name         | Preview                                  |
-|--------------|------------------------------------------|
-| Cooking      | ![](assets/screenshots/cooking.png)      |
-| Design       | ![](assets/screenshots/design.PNG)       |
-| Design (alt) | ![](assets/screenshots/design1.png)      |
+|--------------|------------------------------------------|    |
 | Diabetes     | ![](assets/screenshots/diabetes.png)     |
 | Hero         | ![](assets/screenshots/hero.png)         |
 | Iris         | ![](assets/screenshots/iris.png)         |
@@ -33,8 +30,7 @@ A sample of projects represented in this portfolio:
 | OWASP        | ![](assets/screenshots/owasp.png)        |
 | PacketTracer | ![](assets/screenshots/packettracer.png) |
 | VOIP         | ![](assets/screenshots/voip.PNG)         |
-| Website      | ![](assets/screenshots/website.PNG)      |
-| Website Alt  | ![](assets/screenshots/website.png)      |
+    |
 
 
 ## 🚀 Features
