@@ -1,6 +1,6 @@
 # Personal Portfolio Webpage
 
-Welcome to my personal portfolio! This website showcases my projects, skills, and interests as a developer and designer. Explore the site to see screenshots and details of various works, from web development to data science and more.
+Welcome to my personal portfolio! This website showcases my projects, skills, and interests as a developer and designer. Explore the site to see screenshots and details of various works, from web development to machine learning.
 
 ## 🌐 Live Demo
 
@@ -17,20 +17,15 @@ https://irumshehryar.github.io/portfolio/
 
 A sample of projects represented in this portfolio:
 
-| Name         | Preview                                  |
-|--------------|------------------------------------------|    |
-| Diabetes     | ![](assets/screenshots/diabetes.png)     |
-| Hero         | ![](assets/screenshots/hero.png)         |
-| Iris         | ![](assets/screenshots/iris.png)         |
-| JavaScript   | ![](assets/screenshots/javascript.PNG)   |
-| Lost         | ![](assets/screenshots/lost.PNG)         |
-| MCP          | ![](assets/screenshots/mcp.png)          |
-| Mentor       | ![](assets/screenshots/mentor.PNG)       |
-| Microservice | ![](assets/screenshots/microservice.png) |
-| OWASP        | ![](assets/screenshots/owasp.png)        |
-| PacketTracer | ![](assets/screenshots/packettracer.png) |
-| VOIP         | ![](assets/screenshots/voip.PNG)         |
-    |
+| Name                      | Preview                                           |
+|---------------------------|---------------------------------------------------|
+| Hero                      | ![](assets/screenshots/hero.png)                  |
+| System Architecture       | ![](assets/screenshots/system-architecture.png)   |
+| Results Graph             | ![](assets/screenshots/results-graph.PNG)         |
+| VoIP Backend              | ![](assets/screenshots/voip.PNG)                  |
+| Full-Stack Restaurant     | ![](assets/screenshots/website.PNG)               |
+| Finnish Tutor Assignment  | ![](assets/screenshots/mentor.PNG)                |
+| ML Experiments - Diabetes | ![](assets/screenshots/diabetes.png)              |
 
 
 ## 🚀 Features
@@ -43,5 +38,17 @@ A sample of projects represented in this portfolio:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com
-
+   git clone https://github.com/IrumShehryar/portfolio.git
+   cd portfolio
+   ```
+
+2. Open `index.html` in your browser to view the portfolio locally.
+
+3. To add new projects:
+   - Add screenshot images to `assets/screenshots/`
+   - Update the portfolio screenshots table in this README
+   - Update the HTML to include the new project in your portfolio page
+
+## 📝 License
+
+This portfolio is open source and available under the MIT License.
