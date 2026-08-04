@@ -13,6 +13,7 @@
     <div class="logo">Irum Shehryar</div>
     <div class="navlinks">
       <a href="#work">Work</a>
+      <a href="#research">Research</a>
       <a href="#projects">Demos</a>
       <a href="#ml">ML</a>
       <a href="#skills">Skills</a>
@@ -26,13 +27,15 @@
 <!-- HERO -->
 <section class="container hero">
   <div>
-    <div class="tagline">Python • AI/ML • Backend Systems</div>
-    <h1>Applied machine learning in real systems.</h1>
+    <div class="tagline">Python • AI/ML • NLP Research</div>
+    <h1>Applied machine learning, focused on NLP research.</h1>
     <p>
-      MSc graduate in Information Technology specialising in AI and NLP.
-      Built a context-aware location extraction pipeline for Finnish news
-      articles as part of my Master's thesis at Metropolia UAS, in
-      collaboration with Superhood Oy.
+      MSc graduate in Information Technology specialising in AI and NLP,
+      pursuing PhD research in natural language processing, LLM evaluation,
+      and hallucination detection. Built a context-aware location extraction
+      pipeline for Finnish news articles as part of my Master's thesis at
+      Metropolia UAS, in collaboration with Superhood Oy, and independently
+      participate in NLP shared tasks and applied research projects.
     </p>
     <div class="cta">
       <a class="btn" href="#work">View Work</a>
@@ -44,10 +47,11 @@
     <img src="assets/screenshots/hero.png" alt="AI system architecture">
     <h3>Focus</h3>
     <div class="badges">
+      <span class="badge ai">NLP Research</span>
+      <span class="badge ai">LLM Evaluation</span>
       <span class="badge python">Python</span>
       <span class="badge ai">Machine Learning</span>
       <span class="badge web">FastAPI</span>
-      <span class="badge netsec">Microservices</span>
     </div>
   </div>
 </section>
@@ -108,7 +112,60 @@
         <span class="badge python">Flask</span>
         <span class="badge netsec">REST</span>
       </div>
-      <div class="status">Industry project – repository confidential</div>
+      <div class="status">Industry project – team contribution (backend/API), repository confidential</div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- INDEPENDENT RESEARCH -->
+<section id="research" class="container section">
+  <h2 class="section-title">Independent Research</h2>
+  <p class="small" style="margin-bottom:18px">
+    Self-directed research projects, undertaken independently outside of coursework or employment.
+  </p>
+  <div class="grid cards">
+
+    <div class="card ai-highlight">
+      <img src="assets/screenshots/shroom-leaderboard.png" alt="SHROOM-Visions leaderboard">
+      <h3>SHROOM-Visions 2026 – Multimodal Hallucination Detection (Shared Task)</h3>
+      <p>
+        Solo submission to the SHROOM-Visions shared task (UncertaiNLP workshop, EMNLP 2026),
+        a multilingual benchmark for detecting fine-grained hallucination spans in
+        vision-language model outputs. Built a zero-shot LLM-as-judge pipeline using
+        Claude Haiku 4.5 as the base detector with Claude Sonnet 5 for second-opinion
+        verification, including staged prompt engineering and targeted post-processing.
+        Ranked 13th of 28 teams on the English subset as an independent researcher.
+      </p>
+      <div class="badges">
+        <span class="badge ai">LLM-as-Judge</span>
+        <span class="badge ai">Zero-Shot</span>
+        <span class="badge python">Prompt Engineering</span>
+      </div>
+      <p class="small">
+        <a href="https://helsinki-nlp.github.io/shroom/2026/" target="_blank">Shared Task</a>
+      </p>
+    </div>
+
+    <div class="card ai-highlight">
+      <img src="assets/screenshots/finbert-confusion-matrix.png" alt="FinBERT confusion matrix">
+      <h3>Finnish News Topic Classification – Baseline vs. Fine-Tuned Transformer</h3>
+      <p>
+        Multi-class topic classification of Finnish news articles into 7 categories.
+        Built a TF-IDF + Logistic Regression baseline (0.745 macro F1), then fine-tuned
+        FinBERT (TurkuNLP/bert-base-finnish-cased-v1) via the Hugging Face Trainer API,
+        improving macro F1 to 0.787. Includes class-imbalance handling, stratified
+        train/val/test splits, and confusion-matrix-based error analysis.
+      </p>
+      <div class="badges">
+        <span class="badge ai">NLP</span>
+        <span class="badge ai">Transfer Learning</span>
+        <span class="badge python">scikit-learn</span>
+      </div>
+      <p class="small">
+        <a href="https://github.com/IrumShehryar/finnish-news-topic-classification" target="_blank">View Repository</a>
+      </p>
     </div>
 
   </div>
@@ -162,47 +219,6 @@
   <h2 class="section-title">Machine Learning Experiments</h2>
   <div class="grid cards">
 
-    <div class="card ai-highlight">
-      <img src="assets/screenshots/shroom-leaderboard.png" alt="SHROOM-Visions leaderboard">
-      <h3>SHROOM-Visions 2026 – Multimodal Hallucination Detection (Shared Task)</h3>
-      <p>
-        Solo submission to the SHROOM-Visions shared task (UncertaiNLP workshop, EMNLP 2026),
-        a multilingual benchmark for detecting fine-grained hallucination spans in
-        vision-language model outputs. Built a zero-shot LLM-as-judge pipeline using
-        Claude Haiku 4.5 as the base detector with Claude Sonnet 5 for second-opinion
-        verification, including staged prompt engineering and targeted post-processing.
-        Ranked 13th of 28 teams on the English subset as an independent researcher.
-      </p>
-      <div class="badges">
-        <span class="badge ai">LLM-as-Judge</span>
-        <span class="badge ai">Zero-Shot</span>
-        <span class="badge python">Prompt Engineering</span>
-      </div>
-      <p class="small">
-        <a href="https://helsinki-nlp.github.io/shroom/2026/" target="_blank">Shared Task</a>
-      </p>
-    </div>
-
-    <div class="card">
-      <img src="assets/screenshots/finbert-confusion-matrix.png" alt="FinBERT confusion matrix">
-      <h3>Finnish News Topic Classification – Baseline vs. Fine-Tuned Transformer</h3>
-      <p>
-        Multi-class topic classification of Finnish news articles into 7 categories.
-        Built a TF-IDF + Logistic Regression baseline (0.745 macro F1), then fine-tuned
-        FinBERT (TurkuNLP/bert-base-finnish-cased-v1) via the Hugging Face Trainer API,
-        improving macro F1 to 0.787. Includes class-imbalance handling, stratified
-        train/val/test splits, and confusion-matrix-based error analysis.
-      </p>
-      <div class="badges">
-        <span class="badge ai">NLP</span>
-        <span class="badge ai">Transfer Learning</span>
-        <span class="badge python">scikit-learn</span>
-      </div>
-      <p class="small">
-        <a href="https://github.com/IrumShehryar/finnish-news-topic-classification" target="_blank">View Repository</a>
-      </p>
-    </div>
-
     <div class="card">
       <img src="assets/screenshots/diabetes.png" alt="ML experiments">
       <h3>Regression & Classification Experiments</h3>
@@ -229,14 +245,19 @@
   <div class="badges">
     <span class="badge python">Python</span>
     <span class="badge ai">Machine Learning</span>
+    <span class="badge ai">NLP</span>
+    <span class="badge ai">PyTorch</span>
+    <span class="badge ai">Hugging Face Transformers</span>
+    <span class="badge ai">Fine-Tuning &amp; Transfer Learning</span>
+    <span class="badge ai">LLM-as-Judge / Prompt Engineering</span>
+    <span class="badge ai">Named Entity Recognition</span>
+    <span class="badge ai">Stanza</span>
     <span class="badge web">FastAPI</span>
     <span class="badge web">Flask</span>
     <span class="badge netsec">REST APIs</span>
     <span class="badge netsec">MongoDB</span>
     <span class="badge netsec">PostgreSQL</span>
     <span class="badge netsec">Linux</span>
-    <span class="badge ai">NLP / NER</span>
-    <span class="badge ai">Stanza</span>
     <span class="badge mcp">MCP</span>
     <span class="badge ai">Groq</span>
   </div>
