@@ -62,12 +62,10 @@
       <img src="assets/screenshots/system-architecture.png" alt="Internship architecture">
       <h3>Internship – Document-Level Location Selection | Superhood Oy</h3>
       <p>
-        <p>
-         Built a FastAPI microservice for Finnish news article processing, implementing 
-         NLP preprocessing and location extraction using Stanza and Geoapify across 
-         four pipeline configurations: baseline, postal-first ranking, and static and 
-         dynamic resolver modes.
-        </p>
+        Built a FastAPI microservice for Finnish news article processing, implementing
+        NLP preprocessing and location extraction using Stanza and Geoapify across
+        four pipeline configurations: baseline, postal-first ranking, and static and
+        dynamic resolver modes.
       </p>
       <div class="badges">
         <span class="badge ai">AI/ML</span>
@@ -81,9 +79,9 @@
       <img src="assets/screenshots/results-graph.PNG" alt="MCP architecture">
       <h3>Master's Thesis – A Hybrid Rule-based & LLM Approach</h3>
       <p>
-        Evaluated the internship pipeline through controlled experiments comparing static, 
-        API-based, and MCP-assisted approaches for location disambiguation. Achieved 83.33% 
-        exact match accuracy across 60 annotated articles using a Groq-hosted LLM for 
+        Evaluated the internship pipeline through controlled experiments comparing static,
+        API-based, and MCP-assisted approaches for location disambiguation. Achieved 83.33%
+        exact match accuracy across 60 annotated articles using a Groq-hosted LLM for
         context-aware ranking.
       </p>
       <div class="badges">
@@ -163,6 +161,47 @@
 <section id="ml" class="container section">
   <h2 class="section-title">Machine Learning Experiments</h2>
   <div class="grid cards">
+
+    <div class="card ai-highlight">
+      <img src="assets/screenshots/shroom-leaderboard.png" alt="SHROOM-Visions leaderboard">
+      <h3>SHROOM-Visions 2026 – Multimodal Hallucination Detection (Shared Task)</h3>
+      <p>
+        Solo submission to the SHROOM-Visions shared task (UncertaiNLP workshop, EMNLP 2026),
+        a multilingual benchmark for detecting fine-grained hallucination spans in
+        vision-language model outputs. Built a zero-shot LLM-as-judge pipeline using
+        Claude Haiku 4.5 as the base detector with Claude Sonnet 5 for second-opinion
+        verification, including staged prompt engineering and targeted post-processing.
+        Ranked 13th of 28 teams on the English subset as an independent researcher.
+      </p>
+      <div class="badges">
+        <span class="badge ai">LLM-as-Judge</span>
+        <span class="badge ai">Zero-Shot</span>
+        <span class="badge python">Prompt Engineering</span>
+      </div>
+      <p class="small">
+        <a href="https://helsinki-nlp.github.io/shroom/2026/" target="_blank">Shared Task</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="assets/screenshots/finbert-confusion-matrix.png" alt="FinBERT confusion matrix">
+      <h3>Finnish News Topic Classification – Baseline vs. Fine-Tuned Transformer</h3>
+      <p>
+        Multi-class topic classification of Finnish news articles into 7 categories.
+        Built a TF-IDF + Logistic Regression baseline (0.745 macro F1), then fine-tuned
+        FinBERT (TurkuNLP/bert-base-finnish-cased-v1) via the Hugging Face Trainer API,
+        improving macro F1 to 0.787. Includes class-imbalance handling, stratified
+        train/val/test splits, and confusion-matrix-based error analysis.
+      </p>
+      <div class="badges">
+        <span class="badge ai">NLP</span>
+        <span class="badge ai">Transfer Learning</span>
+        <span class="badge python">scikit-learn</span>
+      </div>
+      <p class="small">
+        <a href="https://github.com/IrumShehryar/finnish-news-topic-classification" target="_blank">View Repository</a>
+      </p>
+    </div>
 
     <div class="card">
       <img src="assets/screenshots/diabetes.png" alt="ML experiments">
